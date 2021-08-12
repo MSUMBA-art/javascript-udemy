@@ -10,7 +10,10 @@ console.log("What is their name");
 var loveScore = Math.random() * 100;
 loveScore = Math.random(loveScore) + 1;
 if (loveScore > 100) {
+
+  if (loveScore > 30 && loveScore <= 70) {
     console.log("Your Love Score is " + loveScore + " %" + "You love him");
+  }
 } else {
     console.log("Your Love Score is " + loveScore + " %");
 }
